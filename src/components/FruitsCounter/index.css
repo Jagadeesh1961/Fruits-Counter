@@ -1,0 +1,102 @@
+/* Write your CSS here */
+
+.fruits-bg-container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: white;
+  width: 90%;
+  max-width: 1120px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  margin: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 80%;
+    padding-top: 76px;
+    padding-left: 54px;
+    padding-right: 54px;
+    padding-bottom: 76px;
+  }
+}
+
+.fruits-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 767px) {
+  .fruits-container {
+    flex-direction: column;
+  }
+}
+
+.fruit-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 76px;
+  margin-left: 38px;
+  margin-right: 3s8px;
+}
+
+@media screen and (max-width: 767px) {
+  .fruit-container {
+    margin-bottom: 30px;
+    margin-top: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+
+.fruit-logo {
+  width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .fruit-logo {
+    width: 250px;
+  }
+}
+
+.heading {
+  color: #000000;
+  font-size: 32px;
+  font-weight: 800;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 767px) {
+  .heading {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+.span-element {
+  color: #ffd569;
+  font-weight: bold;
+}
+
+.button {
+  color: white;
+  background-color: #007bff;
+  font-size: 12px;
+  font-family: 'Roboto';
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
